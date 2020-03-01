@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <h2>steganography</h2>
+
+    <label for="message">message (leave empty to recover):</label>
+    <input type="text" id="message" maxlength="20" size="22"></input>
+    <input type="file" accept="image/*" onchange="readURL(this);" />
+    <br/>
+    <canvas id="canvas" width="600" height="600"></canvas>
+    <br/>
+    <a id="link"></a>
+
+  </body>
+</html>
